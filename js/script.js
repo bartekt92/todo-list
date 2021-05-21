@@ -3,14 +3,7 @@
         console.log("Witajcie programiści!")
     }
     const tasks = [
-        {
-            content: "zrobić pranie",
-            done: false,
-        },
-        {
-            content: "kupić mleko",
-            done: true,
-        },
+
     ];
 
     const addNewTask = (newTaskContent) => {
@@ -69,7 +62,7 @@
             return;
         };
         addNewTask(newTaskContent);
-        document.querySelector(".js-newTask").value="";
+        document.querySelector(".js-newTask").value = "";
     };
 
     const init = () => {
