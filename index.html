@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +12,36 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" />
     <link href="css/global.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/taskList.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <script defer src="js/script.js"></script>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="wrapper">
+            <header>
+                <h1 class="mainHeader">Lista zadań</h1>
+            </header>
+            <h2 class="formHeader">Dodaj nowe zadanie:</h2>
+            <form class="form js-form">
+                <input placeholder="Co jest do zrobienia?" autofocus class="form__input js-newTask">
+                <button class="form__button js-addNewTaskButton">Dodaj zadanie</button>
+            </form>
+            <section class="taskList">
+                <h2 class="taskList__header">Lista zadań</h2>
+                <div class="taskList__elements">
+                    <ul class="taskList__ul js-tasks">
+                       
+                        
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
 </body>
+
 </html>

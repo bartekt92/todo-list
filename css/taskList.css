@@ -1,0 +1,62 @@
+.taskList {
+    display: grid;
+}
+
+.taskList__header {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.taskList__elements {
+    background-color: white;
+    padding: 20px;
+}
+
+.taskList__ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskList__li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskList__text {
+    margin:10px;
+    flex-grow:1;
+    max-width: 600px;
+}
+
+.taskList__text--done {
+    text-decoration: line-through;
+}
+
+.taskList__actionButton {
+    color: #1A7C1D;
+    background-color: #1A7C1D;
+    width:28px;
+    height:28px;
+    align-self: center;
+    border-style: solid;
+    border-color:  #1A7C1D;
+}
+
+.taskList__actionButton--visited {
+    color: white;
+    background-color: #1A7C1D;
+}
+
+.taskList__actionButton--red {
+    color: white;
+    background-color: #EE2A3B;
+    border-color:   #EE2A3B;
+}
+
+.taskList__line {
+    color: #EFEFEF;
+    background-color: #EFEFEF;
+    border-style: solid;
+}
