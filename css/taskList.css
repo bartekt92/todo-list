@@ -35,20 +35,12 @@
 }
 
 .taskList__actionButton {
-    color: #1A7C1D;
-    background-color: #1A7C1D;
-    text-align: center;
-    width:28px;
-    height:28px;
-    align-self: center;
-    justify-self: center;
-    border-style: solid;
-    border-color:  #1A7C1D;
-}
-
-.taskList__actionButton--visited {
     color: white;
     background-color: #1A7C1D;
+    width:28px;
+    height:28px;
+    border-style: solid;
+    border-color:  #1A7C1D;
 }
 
 .taskList__actionButton--red {
