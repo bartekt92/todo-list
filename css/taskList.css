@@ -39,6 +39,7 @@
     background-color: #1A7C1D;
     width:28px;
     height:28px;
+    align-self: center;
     border-style: solid;
     border-color:  #1A7C1D;
 }
