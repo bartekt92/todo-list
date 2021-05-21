@@ -42,12 +42,14 @@
     align-self: center;
     border-style: solid;
     border-color:  #1A7C1D;
+    padding:0;
 }
 
 .taskList__actionButton--red {
     color: white;
     background-color: #EE2A3B;
     border-color:   #EE2A3B;
+    padding:0;
 }
 
 .taskList__line {
