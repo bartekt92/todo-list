@@ -37,12 +37,13 @@
 .taskList__actionButton {
     color: white;
     background-color: #1A7C1D;
-    width:28px;
-    height:28px;
+    width:32px;
+    height:32px;
     align-self: center;
     border-style: solid;
     border-color:  #1A7C1D;
     padding:0;
+    margin:0 auto;
 }
 
 .taskList__actionButton--red {
@@ -50,6 +51,7 @@
     background-color: #EE2A3B;
     border-color:   #EE2A3B;
     padding:0;
+    margin:0 auto;
 }
 
 .taskList__line {
