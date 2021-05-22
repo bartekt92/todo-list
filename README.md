@@ -10,7 +10,7 @@ Page works to adding new tasks. It is posible to add a task, mark if done, and d
 ## Used Technologies:
 + CSS
 + BEM
-+ Semaantic HTML
++ HTML
 + ES6 features
 ## Quick page preview:
 ![Quick page preview](https://github.com/bartekt92/todo-list/blob/main/images/todo-list.jpg?raw=true)
