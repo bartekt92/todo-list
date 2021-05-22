@@ -20,14 +20,15 @@
 }
 
 .taskList__li {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
 }
 
 .taskList__text {
-    margin:10px;
-    flex-grow:1;
-    max-width: 600px;
+    margin: 10px;
+    word-break: break-all;
 }
 
 .taskList__text--done {
@@ -37,19 +38,19 @@
 .taskList__actionButton {
     color: white;
     background-color: #1A7C1D;
-    width:30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
     align-self: center;
-    border:none;
-    padding:0;
+    border: none;
+    padding: 0;
 }
 
 .taskList__actionButton--red {
     color: white;
     background-color: #EE2A3B;
-    border-color:   #EE2A3B;
-    padding:0;
-    margin:0 auto;
+    border-color: #EE2A3B;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .taskList__line {
