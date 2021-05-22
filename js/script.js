@@ -42,10 +42,10 @@
     const render = () => {
         let htmlString = "";
         for (const task of tasks) {
-            htmlString += ` <li class="taskList__li"><button
-            class="taskList__actionButton js-doneButton">${task.done ? "&#10004;" : ""}</button>
-        <div ${task.done ? "class= \"taskList__text taskList__text--done\"" : "class= \"taskList__text\""}>${task.content}</div><button
-            class="taskList__actionButton taskList__actionButton--red js-eraseButton">&#128465;</button>
+            htmlString += ` <li class="taskList__li">
+            <button class="taskList__actionButton js-doneButton">${task.done ? "&#10004;" : ""}</button>
+        <div ${task.done ? "class= \"taskList__text taskList__text--done\"" : "class= \"taskList__text\""}>${task.content}</div>
+        <button class="taskList__actionButton taskList__actionButton--red js-eraseButton">&#128465;</button>
     </li>
     <hr class="taskList__line">
            `
