@@ -8,16 +8,18 @@ html {
 
 body {
     background-color: #EFEFEF;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     max-width: 1000px;
     display: grid;
-    margin: auto;
+    padding: 40px;
+    margin: 0 auto;
 }
 
-.wrapper {
-    margin: 20px;
+@media (max-width: 767px) {
+    .container {
+        padding: 20px;
+    }
 }
-

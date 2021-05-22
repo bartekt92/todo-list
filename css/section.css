@@ -1,0 +1,121 @@
+.section__header {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.section__content {
+    background-color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 11fr auto;
+    grid-gap: 20px;
+}
+
+@media (max-width: 767px) {
+    .section__content {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}
+
+.section__input {
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #EFEFEF;
+    border-style: solid;
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .section__input {
+        grid-row-start: 1;
+        align-self: center;
+    }
+}
+
+.section__button {
+    background-color: #007483;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.section__button:hover {
+    background-color: hsl(187 100% 33%);
+    cursor: grab;
+}
+
+.section__button:active {
+    background-color: hsl(187 100% 38%);
+}
+
+@media (max-width: 767px) {
+    .section__button {
+        grid-row-start: 2;
+    }
+}
+
+.section__elements {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section__list {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.section__text {
+    margin: 10px;
+    word-wrap: break-word;
+}
+
+.section__text--done {
+    text-decoration: line-through;
+}
+
+.section__actionButton {
+    color: white;
+    background-color: #1A7C1D;
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0;
+}
+
+.section__actionButton:hover {
+    background: hsl(120, 99%, 31%);
+    cursor: grab;
+}
+
+.section__actionButton:active {
+    background: hsl(120, 100%, 40%);
+}
+
+.section__actionButton--red {
+    color: white;
+    background-color: #EE2A3B;
+    border-color: #EE2A3B;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.section__actionButton--red:hover {
+    background: hsl(0, 100%, 64%);
+    cursor: grab;
+}
+
+.section__actionButton--red:active {
+    background: hsl(0, 98%, 78%);
+}
+
+.section__line {
+    color: #EFEFEF;
+    background-color: #EFEFEF;
+    border-style: solid;
+    border-width: 1.2px;
+}
