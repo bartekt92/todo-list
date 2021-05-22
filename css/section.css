@@ -76,7 +76,7 @@
 
 .section__text {
     margin: 10px;
-    word-wrap: break-word;
+    word-break: break-word;
 }
 
 .section__text--done {
