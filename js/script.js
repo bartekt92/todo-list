@@ -44,7 +44,7 @@
         for (const task of tasks) {
             htmlString += ` <li class="section__list">
             <button class="section__actionButton js-doneButton">${task.done ? "&#10004;" : ""}</button>
-        <span ${task.done ? "class= \"section__text section__text--done\"" : "class= \"section__text\""}>${task.content}</span>
+        <span class="section__text ${task.done ? "section__text--done" : ""}">${task.content}</span>
         <button class="section__actionButton section__actionButton--red js-eraseButton">&#128465;</button>
     </li>
     <hr class="section__line">
