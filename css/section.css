@@ -49,7 +49,7 @@
 
 .section__button:hover {
     background-color: hsl(187 100% 33%);
-    cursor: grab;
+    cursor: pointer;
 }
 
 .section__button:active {
@@ -94,7 +94,7 @@
 
 .section__actionButton:hover {
     background: hsl(120, 99%, 31%);
-    cursor: grab;
+    cursor: pointer;
 }
 
 .section__actionButton:active {
@@ -111,7 +111,7 @@
 
 .section__actionButton--red:hover {
     background: hsl(0, 100%, 64%);
-    cursor: grab;
+    cursor: pointer;
 }
 
 .section__actionButton--red:active {
