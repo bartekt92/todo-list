@@ -1,3 +1,11 @@
+.section__form {
+    background-color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 11fr auto;
+    grid-gap: 20px;
+}
+
 .section__header {
     background-color: white;
     padding: 20px;
@@ -5,12 +13,9 @@
     margin-top: 10px;
 }
 
-.section__form {
-    background-color: white;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 11fr auto;
-    grid-gap: 20px;
+.section__header--second {
+    padding: 0px;
+    margin: 0;
 }
 
 .section__content {
@@ -45,11 +50,13 @@
     color: white;
     border: none;
     padding: 10px;
+    transition: 0.4s;
 }
 
 .section__button:hover {
     background-color: hsl(187 100% 33%);
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .section__button:active {
@@ -62,6 +69,45 @@
     }
 }
 
+.section__addNewTask {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .section__addNewTask {
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+    }
+}
+
+.section__whiteButton {
+    background: transparent;
+    border: none;
+    color: teal;
+    transition: 0.4s;
+    height: 20px;
+}
+
+.section__whiteButton:hover {
+    color: hsl(180, 100%, 40%);
+    cursor: pointer;
+}
+
+.section__whiteButton:active {
+    color: hsl(180, 100%, 45%);
+}
+
+.section__whiteButton:disabled {
+    color: #ccc;
+}
+
 .section__elements {
     list-style-type: none;
     padding: 0;
@@ -72,6 +118,10 @@
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
     align-items: center;
+}
+
+.section__list--hide {
+    display: none;
 }
 
 .section__text {
@@ -90,6 +140,7 @@
     height: 30px;
     border: none;
     padding: 0;
+    transition: 0.4s;
 }
 
 .section__actionButton:hover {
@@ -123,4 +174,8 @@
     background-color: #EFEFEF;
     border-style: solid;
     border-width: 1.2px;
+}
+
+.section__line--hide {
+    display: none;
 }
